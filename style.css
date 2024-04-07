@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Delicious+Handrawn&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Rubik+Scribble&family=Rubik:ital,wght@0,300..900;1,300..900&family=Workbench&display=swap');
+body{
+    color: white;
+}
+.head-text{
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+    font-style: normal;
+    font-size: 5em;
+}
+
+/* clock */
+
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap");
+
+
+body {
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  font-weight: 300;
+  font-size: 2.2rem;
+  align-items: center;
+  height: 100vh;
+}
+
+#clock h1{
+    font-family: "Workbench", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+    font-size: 4em;
+    font-style: normal;
+    font-variation-settings:
+      "BLED" 0,
+      "SCAN" 0;
+}
+.ad{
+    width: 20em;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+.bg-clip{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+@media (min-aspect-ratio: 16/9){
+    .bg-clip{
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-aspect-ratio: 16/9){
+    .bg-clip{
+        width: auto;
+        height: 100%;
+    }
+}
